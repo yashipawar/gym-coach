@@ -1,5 +1,5 @@
 import React from 'react';
-import { useExerciseContext } from './ExerciseContext'; // Adjust the import path as needed
+import { useExerciseContext } from './ExerciseContext'; 
 
 const SavedTemplates = () => {
   const { templates, deleteTemplate } = useExerciseContext();

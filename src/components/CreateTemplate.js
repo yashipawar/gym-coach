@@ -4,7 +4,6 @@ import exercises from './ExerciseAPI';
 const CreateTemplate = ({ onSave }) => {
   const [day, setDay] = useState('');
   const [targetMuscle, setTargetMuscle] = useState('');
-  // const [Exercises, setExercises] = useState(new Set());
   const [selectedExercises, setSelectedExercises] = useState(new Set());
 
   const targetMuscles = ['Chest', 'Biceps', 'Shoulder', 'Triceps', 'Legs', 'Back'];

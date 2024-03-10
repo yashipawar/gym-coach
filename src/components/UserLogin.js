@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import TypewriterComponent from "typewriter-effect";
-import backgroundImage from '../images/background.jpg'; // Ensure the path is correct
-import usersData from '../users.json'; // Ensure the path is correct
+import usersData from '../users.json'; 
 
 const UserLogin = () => {
   const [userId, setUserId] = useState('');
@@ -22,9 +21,7 @@ const UserLogin = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-cover bg-black" 
-    // style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+    <div className="min-h-screen flex flex-col items-center justify-center bg-cover bg-black" >
       <div className=" mr-6 ml-6 p-4">
         <h1 className="text-3xl font-serif mb-8 font-bold text-transparent text-center bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Welcome to Gym <br className=' text-center' /> Coach</h1>
 

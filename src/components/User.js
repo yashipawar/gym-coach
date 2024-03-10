@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useExerciseContext } from './ExerciseContext';
 import TemplateCard from './TemplateCard';
-import backgroundImage from '../images/background.jpg';
 
 const User = () => {
   const { userId } = useParams();
@@ -27,9 +26,7 @@ const User = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-cover bg-black" 
-    // style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+    <div className="min-h-screen flex items-center justify-center bg-cover bg-black" >
       <div className="container mb-8 bg-white bg-opacity-10 p-6 rounded-lg">
         <div className="font-bold mb-4 flex flex-wrap items-center justify-between text-white shadow-xl">
           <h1 className='text-2xl'>See your today's Exercises.</h1> 

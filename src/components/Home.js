@@ -1,7 +1,6 @@
 import React from 'react';
 import TypewriterComponent from "typewriter-effect";
 import { useNavigate } from 'react-router-dom';
-import backgroundImage from '../images/background.jpg'; // Ensure this points to your image in the src directory
 
 const Home = () => {
   const navigate = useNavigate();

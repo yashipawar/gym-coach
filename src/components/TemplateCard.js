@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// Import icons from react-icons if not already
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 
 const TemplateCard = ({ template }) => {
