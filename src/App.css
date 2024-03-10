@@ -1,3 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    background: linear-gradient(to right, #dae2f8, #d6a4a4); /* Example gradient */
+    color: #333; /* Ensuring good readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
 .App {
   text-align: center;
 }
